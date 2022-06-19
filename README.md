@@ -1,35 +1,46 @@
-# JavaScript Unit Testing - The Practical Guide Code & Course Materials
+# JavaScript Unit Testing - The Practical Guide by Maximilian Schwarzmüller
 
-This repository contains code snapshots and other attachments (e.g., slides) for our [JavaScript Unit Testing - The Practical Guide](https://acad.link/testing) course.
+# Section 1
 
-You may use the provided resources to follow along with the course, debug your code or to compare your solution to Maximilian's. Re-distributing course materials (including the content provided with this repository) is not permitted.
+## what is testing ?
+![1](./images/1.png)
 
-# How To Use
+## what are unit tests ?
+![2](./images/2.png)
+![3](./images/3.png)
 
-This repository contains multiple [branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches). Every branch represents a course section and contains the resources that belong to that section.
+## unit vs integration vs e2e tests
+![4](./images/4.png)
+![5](./images/5.png)
+![6](./images/6.png)
 
-For example, the branch [02-basics](https://github.com/academind/js-testing-practical-guide-code/tree/03-basics) contains all course resources (e.g., code snapshots) that belong to section 3 ("Testing Basics") of the course.
+## TDD
+![7](./images/7.png)
 
-You can switch branches via the dropdown in the top left corner of this repository page.
+# Section 2 - Setup & Testing Software
 
-# Provided Resources
+## Tools are needed for testing
+![8](./images/8.png)
 
-In most branches (i.e., for most course sections), you find the following folders in the repository branch:
+**[Vitest](https://vitest.dev/)** is test runner and assertion library for JavaScript.
 
-- **`/code`**: Contains multiple subfolders with different code snapshots for this course section (also see [Using Code Snapshots](#using-code-snapshots))
-- **`/slides`**: Contains section slides (if slides were shown / used in the section)
-- **`/extra-files`**: Contains any extra files that were used (e.g., starting project code snapshots)
+# Section 3 - Testing Basics
+![9](./images/9.png)
 
-# Using Code Snapshots
 
-Code snapshots (which you find in `/code`) are there for you to compare your code to mine and find + fix errors you might have in your code.
+# Section 4 - Writing Good Tests
+![10](./images/10.png)
+![11](./images/11.png)
+![12](./images/12.png)
 
-You can either view my code directly here on Github (you can open + view code files without issues here) or you download the snapshots. To download (or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)) the snapshots, simply use the **"Code" button** in the top right corner of the repository. This allows you to download the currently selected branch. You can then browse the code snapshots locally on your machine.
+# Section 5 - Advanced Testing Concepts
 
-The subfolders in the `/code` folder are named such that mapping them to the course lectures is straightforward.
+## toBe() vs toEqual()
 
-# Running The Provided Code
+**toBe() => ===**
 
-The provided code is primarily meant to be used for code comparisons (i.e., so that you can compare your code to mine to find + fix errors). 
+**toEqual() => ==**
 
-But you can also run my project code by navigating into the respective code snapshots subfolder (i.e., a subfolder in the `/code` folder) and executing `npm install` followed by `npm test` there.
+
+6-5
+
